@@ -583,13 +583,28 @@
     </a>
   </div>
 
+  <!-- Amplitude 분석 (공개용 API 키만 사용. 비밀키는 절대 이 파일에 넣지 마세요) -->
+  <script src="https://cdn.jsdelivr.net/npm/@amplitude/analytics-browser@2.11.1/lib/scripts/amplitude-min.js"></script>
   <script>
     /* =========================================================
        설정: 가입 버튼이 이동할 주소
        ========================================================= */
     var CONFIG = {
-      signupUrl: "https://jipplan-two.vercel.app/login" // 카카오 로그인 + 이메일 가입이 함께 있는 페이지
+      signupUrl: "https://jipplan-two.vercel.app/login", // 카카오 로그인 + 이메일 가입이 함께 있는 페이지
+      amplitudeKey: "c526c94fc90caa6bcf724182a1dc5397"    // Amplitude 프로젝트 890674 API 키
     };
+
+    /* Amplitude: 페이지뷰·세션·광고 유입(UTM) 자동 수집. 페이지를 떠나는 순간의 클릭도 놓치지 않도록 beacon 전송 */
+    var amp = window.amplitude;
+    if (amp) {
+      amp.init(CONFIG.amplitudeKey, {
+        transport: "beacon",
+        autocapture: { attribution: true, pageViews: true, sessions: true, formInteractions: false, fileDownloads: false, elementInteractions: false }
+      });
+    }
+    function ampTrack(name, props) {
+      try { if (amp) amp.track(name, props); } catch (e) {}
+    }
 
     /* 광고 채널 파라미터(UTM 등)를 가입 페이지로 그대로 넘겨 채널별 가입 성과를 측정 */
     var params = new URLSearchParams(location.search);
@@ -611,6 +626,16 @@
       el.addEventListener("click", function () {
         var data = { event: "signup_cta_click", position: el.dataset.position };
         Object.keys(track).forEach(function (k) { data[k] = track[k]; });
+        // 집플랜 서비스도 같은 Amplitude 프로젝트를 쓰면, 이 기기 ID로 랜딩→가입 흐름이 한 사용자로 이어져요
+        try {
+          var deviceId = amp && amp.getDeviceId();
+          if (deviceId) {
+            var u = new URL(el.href);
+            u.searchParams.set("ampDeviceId", deviceId);
+            el.href = u.toString();
+          }
+        } catch (e) {}
+        ampTrack("LP Signup CTA Clicked", { position: el.dataset.position });
         window.dataLayer.push(data);
         if (typeof gtag === "function") gtag("event", "signup_cta_click", data);
         if (typeof fbq === "function") fbq("track", "Lead", data);
@@ -630,6 +655,21 @@
     }
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
+
+    /* Amplitude: 어느 구간까지 봤는지(이탈 지점) + 자주 묻는 질문 열람 */
+    if ("IntersectionObserver" in window) {
+      var seen = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { ampTrack("LP Section Viewed", { section: en.target.dataset.benefitZone }); seen.unobserve(en.target); }
+        });
+      }, { threshold: 0.4 });
+      document.querySelectorAll("[data-benefit-zone]:not(#stickyCta)").forEach(function (el) { seen.observe(el); });
+    }
+    document.querySelectorAll(".faq-list details").forEach(function (d) {
+      d.addEventListener("toggle", function () {
+        if (d.open) ampTrack("LP FAQ Opened", { question: d.querySelector("summary").innerText.replace(/^Q/, "").trim() });
+      });
+    });
 
     /* 스크롤 등장 애니메이션 */
     if ("IntersectionObserver" in window) {
