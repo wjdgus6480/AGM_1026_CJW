@@ -1,0 +1,498 @@
+{
+  "폴드 커버 280": {
+    "vw": 280,
+    "vh": 653,
+    "docHeight": 5657,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 517,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 11.6667,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "폴드5 커버 344": {
+    "vw": 344,
+    "vh": 882,
+    "docHeight": 5417,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 497,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 11.6667,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "갤럭시 360": {
+    "vw": 360,
+    "vh": 780,
+    "docHeight": 5364,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 508,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "아이폰 390": {
+    "vw": 390,
+    "vh": 844,
+    "docHeight": 5297,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 521,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "폴드 펼침 673": {
+    "vw": 673,
+    "vh": 841,
+    "docHeight": 5447,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 618,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "태블릿 768": {
+    "vw": 768,
+    "vh": 1024,
+    "docHeight": 4877,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 628,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "노트북 1280": {
+    "vw": 1280,
+    "vh": 720,
+    "docHeight": 4526,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 693,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": false
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": false
+      }
+    ]
+  },
+  "데스크톱 1920": {
+    "vw": 1920,
+    "vh": 1080,
+    "docHeight": 5086,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 715,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": "집플랜 지도 화면: 부산 전월세 실거래가 있는 건물마다 정책 확인 결과가 표시된 모습",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": "정책별 판정 예시: 청년전용 버팀목전세자금 조건 충족, 머물자리론 추가 확인 필요, 부산 청년 월세 지원 조건 미충족",
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": "집플랜 실거래 지도: 부산 건물마다 거래 수와 정책 확인 결과가 표시됨",
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": "집플랜 지원 가능한 정책 화면: 부산 신혼부부 주택융자 대출 한도 최대 2억원, 청년 전월세 대출보증 최대 2억원",
+        "loaded": true
+      }
+    ]
+  }
+}

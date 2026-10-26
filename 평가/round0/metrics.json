@@ -1,0 +1,146 @@
+{
+  "폴드 커버 280": {
+    "vw": 280,
+    "vh": 653,
+    "docHeight": 5405,
+    "overflowX": false,
+    "offenders": [
+      "div. (20~300)",
+      "h1. (20~300)",
+      "p.lead (20~300)",
+      "div.benefit-pills (20~300)",
+      "div.cta-group (20~300)",
+      "a.btn.btn-primary.js-signup (20~300)",
+      "p.cta-note (20~300)"
+    ],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 579,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "폴드5 커버 344": {
+    "vw": 344,
+    "vh": 882,
+    "docHeight": 5008,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 579,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "갤럭시 360": {
+    "vw": 360,
+    "vh": 780,
+    "docHeight": 4817,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 531,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "아이폰 390": {
+    "vw": 390,
+    "vh": 844,
+    "docHeight": 4852,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 535,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "폴드 펼침 673": {
+    "vw": 673,
+    "vh": 841,
+    "docHeight": 4903,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 573,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "태블릿 768": {
+    "vw": 768,
+    "vh": 1024,
+    "docHeight": 4903,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 573,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "노트북 1280": {
+    "vw": 1280,
+    "vh": 720,
+    "docHeight": 3573,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 639,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  },
+  "데스크톱 1920": {
+    "vw": 1920,
+    "vh": 1080,
+    "docHeight": 3573,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 639,
+    "ctaCount": 4,
+    "smallTaps": [
+      "집플랜 (32px)"
+    ],
+    "minFont": 11,
+    "sections": {},
+    "imgs": []
+  }
+}

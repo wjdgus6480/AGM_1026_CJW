@@ -1,0 +1,498 @@
+{
+  "폴드 커버 280": {
+    "vw": 280,
+    "vh": 653,
+    "docHeight": 5657,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 517,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 11.6667,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  },
+  "폴드5 커버 344": {
+    "vw": 344,
+    "vh": 882,
+    "docHeight": 5417,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 497,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 11.6667,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  },
+  "갤럭시 360": {
+    "vw": 360,
+    "vh": 780,
+    "docHeight": 5364,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 508,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  },
+  "아이폰 390": {
+    "vw": 390,
+    "vh": 844,
+    "docHeight": 5297,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 521,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  },
+  "폴드 펼침 673": {
+    "vw": 673,
+    "vh": 841,
+    "docHeight": 5447,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 618,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": false
+      }
+    ]
+  },
+  "태블릿 768": {
+    "vw": 768,
+    "vh": 1024,
+    "docHeight": 4877,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 628,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  },
+  "노트북 1280": {
+    "vw": 1280,
+    "vh": 720,
+    "docHeight": 4821,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 588,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  },
+  "데스크톱 1920": {
+    "vw": 1920,
+    "vh": 1080,
+    "docHeight": 5085,
+    "overflowX": false,
+    "offenders": [],
+    "clipped": [],
+    "heroCtaInFold": true,
+    "heroCtaBottom": 720,
+    "ctaCount": 6,
+    "smallTaps": [],
+    "minFont": 12,
+    "sections": {
+      "hero": {
+        "무제한": true,
+        "정책": true
+      },
+      "benefits": {
+        "무제한": true,
+        "정책": true
+      },
+      "how": {
+        "무제한": true,
+        "정책": true
+      },
+      "final": {
+        "무제한": true,
+        "정책": true
+      },
+      "sticky": {
+        "무제한": true,
+        "정책": true
+      }
+    },
+    "imgs": [
+      {
+        "src": "images/logo.png",
+        "alt": false,
+        "loaded": true
+      },
+      {
+        "src": "images/map-mobile.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-verdict.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/map-desktop.webp",
+        "alt": true,
+        "loaded": true
+      },
+      {
+        "src": "images/policy-list.webp",
+        "alt": true,
+        "loaded": true
+      }
+    ]
+  }
+}
