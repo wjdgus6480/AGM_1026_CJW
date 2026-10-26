@@ -619,6 +619,24 @@
       return url.toString();
     }
 
+    /* CTA 공통 속성: 위치 + 버튼 문구 (노출·클릭 이벤트를 같은 기준으로 비교) */
+    function ctaProps(el) {
+      return { position: el.dataset.position, cta_text: el.textContent.replace(/\s+/g, " ").trim() };
+    }
+
+    /* CTA 노출: 버튼이 화면에 절반 이상 보이면 페이지당 위치별 1번 기록
+       (하단 고정 버튼은 나타났을 때만, 데스크톱에서는 숨겨져 있어 기록되지 않음) */
+    if ("IntersectionObserver" in window) {
+      var ctaSeen = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          ampTrack("LP Signup CTA Viewed", ctaProps(en.target));
+          ctaSeen.unobserve(en.target);
+        });
+      }, { threshold: 0.5 });
+      document.querySelectorAll(".js-signup").forEach(function (el) { ctaSeen.observe(el); });
+    }
+
     /* 가입 버튼 링크 연결 + 전환 추적 (GTM dataLayer / GA4 gtag / Meta 픽셀 fbq 설치 시 자동 전송) */
     window.dataLayer = window.dataLayer || [];
     document.querySelectorAll(".js-signup").forEach(function (el) {
@@ -635,7 +653,7 @@
             el.href = u.toString();
           }
         } catch (e) {}
-        ampTrack("LP Signup CTA Clicked", { position: el.dataset.position });
+        ampTrack("LP Signup CTA Clicked", ctaProps(el));
         window.dataLayer.push(data);
         if (typeof gtag === "function") gtag("event", "signup_cta_click", data);
         if (typeof fbq === "function") fbq("track", "Lead", data);
